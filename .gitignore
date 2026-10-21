@@ -1,0 +1,18 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+veriler/
+*.db
+*.log
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.rar
+*.zip
+*.tar.gz
+
+# gecici cikti dosyalari
+scripts/_*.txt

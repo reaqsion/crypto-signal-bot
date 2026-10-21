@@ -1,0 +1,15 @@
+[Unit]
+Description=Kripto Analiz Botu
+After=network.target
+
+[Service]
+Type=simple
+User=oc
+WorkingDirectory=/home/oc/oc-kriptoanaliz
+ExecStart=/home/oc/oc-kriptoanaliz/venv/bin/python bot.py
+Restart=always
+RestartSec=10
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
